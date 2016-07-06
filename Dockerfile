@@ -1,7 +1,7 @@
 FROM php:7.0.8-apache
 
-ENV http_proxy http://192.168.1.106:8888
-ENV https_proxy http://192.168.1.106:8888
+# ENV http_proxy http://192.168.1.106:8888
+# ENV https_proxy http://192.168.1.106:8888
 
 RUN mkdir /var/www/html/{css,js,fonts}
 
