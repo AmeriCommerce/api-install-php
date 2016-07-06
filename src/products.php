@@ -1,7 +1,5 @@
 <?php
-parse_str($_SERVER['QUERY_STRING'], $qs);
-
-$page = array_key_exists('page', $qs) ? $qs['page'] : 1;
+$page = $_GET['page'] != null ? $_GET['page'] : 1;
 $productList = $api->getProductList($page);
 $nextPageClass = $productList->next_page != null ? 'next' : 'next disabled';
 $prevPageClass = $productList->previous_page != null ? 'previous' : 'previous disabled';
