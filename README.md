@@ -1,5 +1,5 @@
-# Spark Pay Online Store - App Publishing & Installation
-## Sample Application
+## Spark Pay Online Store - App Publishing & Installation
+### Sample Application
 
 All dependencies are included in this repository for ease of setup.
 
